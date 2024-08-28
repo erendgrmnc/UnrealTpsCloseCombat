@@ -1,0 +1,80 @@
+# Unreal Engine 5 specific
+DerivedDataCache
+Config
+Saved
+Intermediate
+Binaries
+Engine
+Plugins
+Content/Temp
+Content/AutoGen
+Content/Shaders
+Content/Maps/Unversioned
+Content/Maps/Unversioned/Unversioned
+Content/Maps/Unversioned/Unversioned/Unversioned
+Content/Maps/Unversioned/Unversioned/Unversioned/Unversioned
+
+# General build and cache files
+*.sdf
+*.sdf.bak
+*.srf
+*.srf.bak
+*.uasset.bak
+*.uexp.bak
+*.umap.bak
+*.upk.bak
+*.pak.bak
+*.sav.bak
+*.udk.bak
+*.udat.bak
+*.udb.bak
+*.udx.bak
+*.udata.bak
+*.udb.bak
+*.udx.bak
+
+# IDE and build system files
+*.swp
+*.bak
+*.tmp
+*.log
+*.pid
+*.old
+*.sync
+*.swaps
+
+# Compiled binaries
+*.o
+*.so
+*.elf
+*.ko
+*.dll
+*.exe
+*.pyc
+*.pyo
+*.class
+
+# Test results
+test-results
+coverage
+
+# Dependency directories
+node_modules
+vendor
+bower_components
+packages
+
+# IDE specific files
+/.idea
+/.vscode
+/.project
+/.settings
+
+# Local configuration
+.env
+.git-credentials
+
+# New Unreal Engine 5 directories (if applicable)
+Content/Marketplace
+Content/StarterContent
+Content/StreamingLevels
